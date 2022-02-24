@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Gioithieu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Giới thiệu</title>
+</head>
+<body>
+    <div id="top"></div>
+    <header>
+        <div class="container1 container">
+            <div class="banner">
+                <a href="#"><img src="./img/banner.png" alt=""></a>
+            </div>
+            <div class="nav">
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="./index.html" class="menu-link"><i
+                                    class="fas fa-home"></i></a></li>
+                        <li class="menu-item">
+                            <a href="./gioithieu.html" class="menu-link" style="color: aqua;">Giới thiệu</a>
+                            <ul class="dropdown-menu">
+                                <div class="chimcut"></div>
+                                <li class="menu-item-dropdown"><a href="./gioithieu.html" class="menu-link-dropdown">Truyền thống nhà trường</a></li>
+                                <li class="menu-item-dropdown"><a href="#" class="menu-link-dropdown">Cơ cấu tổ chức</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="./lienhe.html" class="menu-link">Liên hệ</a></li>
+                        <li class="menu-item"><a href="./gopy.html" class="menu-link">Góp ý</a></li>
+                        <li class="menu-item"><a href="./hoidap.html" class="menu-link">Hỏi & Đáp</a></li>
+                    </ul>
+                </div>
+                <div class="form-search">
+                    <input type="text" placeholder="Search..." class="form-search-input">
+                    <input type="submit" value="Tìm kiếm" class="form-search-btn">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Chữ chạy -->
+    <div class="chu-chay">
+        <div class="container">
+            <div class="container-chuchay">
+                <div class="time">
+                    <p id="gio"></p>
+                    <script>
+                        var today = new Date();
+                        var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+                        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                        var dateTime = date+' '+time;
+                     
+                        document.getElementById("gio").innerHTML = dateTime;
+                     </script>
+            </div>
+                <div class="hello">
+                    <marquee behavior="" direction="">CHÀO MỪNG ĐẾN VỚI TRANG THÔNG TIN ĐIỆN TỬ CỦA TRƯỜNG
+                        THPT VĨNH LINH - QUẢNG TRỊ</marquee>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <div class="container">
+            <hr>
+            <div class="container-content">
+                <div class="row">
+                    <div class="content-main">
+                        <h3 class="title-gioithieu">
+                            GIỚI THIỆU
+                        </h3>
+                        <hr>
+                        <hr>
+                        <div class="content-gioithieu">
+                            <h4>Lịch sử Trường THPT Vĩnh Linh Quảng Trị</h4>
+                            <p>Năm 1954, cuộc kháng chiến chống thực dân Pháp thắng lợi, Hiệp định Giơ-ne-vơ về chấm dứt chiến tranh, lập lại hoà bình ở Đông Dương được ký kết. Cũng từ đây, Đặc khu hành chính Vĩnh Linh ra đời với sứ mệnh lịch sử cao cả: là đầu cầu giới tuyến của miền Bắc XHCN, hậu phương trực tiếp của cách mạng miền Nam, của Trị Thiên ruột thịt. Nhằm đáp ứng yêu cầu giáo dục đào tạo cho học sinh là con em vùng giới tuyến sau ngày thực thi hiệp định; với yêu cầu cấp thiết là “tiếp nhận học sinh Vĩnh Linh và học sinh miền Nam tập kết, thực hiện công tác đào tạo đội ngũ cán bộ tương lai  – hạt giống đỏ của Đảng cho địa phương và các tỉnh phía Nam”. Ngày 15 tháng 9 năm 1959, Ủy ban hành chính khu vực Vĩnh Linh đã ra Quyết định số 919/QĐUB thành lập Trường cấp 2-3 Vĩnh Linh. Năm học 1960 – 1961, trường chính thức mang tên trường cấp 3 Vĩnh Linh. Từ đó, ngày 15/9 đã trở thành ngày truyền thống của trường, là dịp hội ngộ hàng năm của bao thế hệ thầy trò đã và đang gắn bó với mái trường thân yêu..</p>
+                            <div class="content-video">
+                                <iframe width="700" height="400" src="https://www.youtube.com/embed/cJxd7fG0b6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p>Trường THPT Vĩnh Linh</p>
+                            </div>
+                            <p>Nhớ lại những ngày đầu thành lập, mái trường non trẻ chỉ là một dãy nhà hai tầng vừa làm phòng học, khu Hiệu bộ, phòng thí nghiệm thực hành vừa là khu tập thể của CBGV; tọa lạc trên đồi Lèo Heo của thị trấn Hồ Xá. Trong muôn vàn khó khăn, thiếu thốn và bỡ ngỡ buổi ban đầu; với chỉ 14 thầy cô giáo đảm nhận giảng dạy 2 lớp với 83 học sinh. Với tinh thần trách nhiệm và niềm tự hào được dạy và học trên mảnh đất Vĩnh Linh, tuyến đầu của Miền Bắc XHCN; đã thôi thúc thầy và trò nhà trường nỗ lực phấn đấu vươn lên để đáp ứng với niềm tin và sự mong đợi của Đảng bộ và nhân dân. Ngay buổi đầu khai trường, nhiều phong trào thi đua đã được dấy lên. Những khẩu hiệu “Gióng trống Bắc Lí, nổi sóng Hiền Lương, nỗ lực phi thường, xây trường hai tốt”; “Vì CNXH, vì thống nhất Tổ quốc, thanh niên anh dũng tiến lên” được phát động và hưởng ứng sôi nổi, rầm rộ trong toàn thể cán bộ, giáo viên, học sinh nhà trường. Trong học sinh dấy lên phong trào“Ba phòng” (phòng gian, phòng gián, phòng hỏa”.  Chúng ta sẽ mãi mãi không quên công sức và tâm huyết của những thầy giáo thuộc thế hệ đầu tiên của trường như thầy Đặng Khắc Nhân, thầy Lê Duy Minh, thầy Hoàng Trọng Điều, thầy Nguyễn Đề, thầy Hoàng Lê Sơn, thầy Trần Văn Trà - những người đã đặt nền móng dựng xây nên mái trường thân yêu. Và, như sức vươn Phù Đổng, chỉ một năm sau, năm học 1961-1962 trường đã có đủ 3 khối lớp, quy tụ đông đảo học sinh của Vĩnh Linh và các huyện, thị miền Nam; lực lượng CBGV tiếp tục được bổ sung theo sự điều động của Bộ giáo dục. Nhiều thầy cô giáo ở khắp mọi miền cũng đã tình nguyện về trường công tác, giảng dạy bằng tất cả tâm huyết, gắn bó với sự nghiệp trồng người trên mảnh đất giới tuyến Vĩnh Linh. Từ đây, vóc dáng, tâm thế và tính cách của một mái trường THPT ngày một định hình; trường đã lớn lên, trưởng thành và hoà mình trong không khí náo nức thi đua dựng xây CNXH của Vĩnh Linh và của toàn miền Bắc. <br>
+
+                                Với dã tâm muốn chia cắt đất nước, Đế quốc Mỹ và chính quyền tay sai Ngô Đình Diệm đã cố tình, đơn phương phá bỏ hiệp định. Dựng lên “sự kiện vịnh Bắc Bộ”, từ đầu năm 1964, Mỹ - nguỵ bắt đầu leo thang bắn phá miền Bắc. Trường cấp 3 Vĩnh Linh đã trở thành mục tiêu huỷ diệt trước tiên ở mảnh đất tuyến lửa. Ngôi trường khang trang hôm nào phút chốc đã bị bom đạn quân thù san phẳng; mọi cơ sở vật chất mà thầy và trò chắt chiu gây dựng cũng bị phá huỷ. Máu đã đổ trên những trang giáo án và những trang vở tinh khôi của học trò. Tột cùng của mất mát đau thương ấy chính là sự hi sinh của thầy giáo Lê Duy Minh - giáo viên dạy giỏi Văn cùng với 7 em học sinh trong trận bom sáng ngày 8/2/1965. Biến đau thương thành sức mạnh hành động cách mạng; với quyết tâm dù bất luận trong hoàn cảnh khó khăn nào cũng phải thi đua dạy tốt và học tốt. <br>
+                                
+                                Năm 1965, thua đau ở miền Nam, đế quốc Mỹ thực hiện ném bom phá hoại miền Bắc, 15 giờ ngày 8/2/1965, Mỹ đánh phá Vĩnh Linh, trường cấp 3 Vĩnh Linh ngay từ đầu là mục tiêu đánh phá của địch. Để bảo toàn tính mạng cho giáo viên và các em học sinh Trường tổ chức sơ tán về 5 xã Vĩnh Tú, Vĩnh Nam, Vĩnh Hoà, Vĩnh Lâm, Vĩnh Tân và chia thành 3 phân hiệu, tổ chức hoạt động dạy và học dưới hầm sâu do thầy giáo hiệu phó Trần Đình Kham phụ trách. Với tinh thần: “Tất cả vì học sinh thân yêu”, đội ngũ thầy cô giáo đã quyết tâm với tinh thần bám trường, giữ lớp, duy trì việc dạy - học dưới mưa bom bão đạn. Dạy và học trên tuyến lửa Vĩnh Linh ngày ấy là một câu chuyện đặc biệt như một huyền thoại. Đó cũng là một cuộc chiến đấu thực sự khi những người thầy giáo cũng là chiến sỹ, sẵn sàng cầm súng để chống trả quân thù, bảo vệ học sinh thân yêu; khi học sinh đi học không chỉ học chữ mà còn học cách tránh luồng đạn địch, biết băng bó, sơ cứu vết thương và cao hơn là học cách làm người, để rèn luyện nên bản lĩnh gan dạ, kiên trung xứng danh là học sinh trên tuyến đầu Tổ quốc. Vượt lên gian khổ và hiểm nguy, nhiều học sinh vẫn đạt giải học sinh giỏi toàn miền Bắc như: Nguyễn Xuân Phùng, Nguyễn Thị Bích Hải. Ngược dòng lịch sử nhớ lại những tháng năm gian khổ mà hào hùng ấy, chúng ta thực sự khâm phục và đầy tự hào.<br>
+                                
+                                Trường THPT Vĩnh Linh có được vị thế và tầm vóc như ngày hôm nay là nhờ biết bao thế hệ thầy giáo, cô giáo, các em học sinh đã hy sinh thầm lặng, đã cống hiến hết mình vì sự nghiệp xây dựng và phát triển của nhà trường. Công sức, tâm huyết và trí tuệ của thầy Trần Duy Mân, thầy Nguyễn Tu, thầy Nguyễn Hữu Bành, thầy Trần Đình Kham, thầy Hoàng Miên, thầy Đặng Khắc Nhân, Cô Nguyễn Thị Mai, thầy Lê Văn Khinh, thầy Trần Viết Lưu các thầy cô giáo nguyên cán bộ quản lý và nhiều thầy giáo, cô giáo khác luôn được các thế hệ thầy-trò của trường trân trọng khắc ghi.. <br>
+                                
+                                
+                                Trải qua 60 năm xây dựng và phát triển, trường THPT Vĩnh Linh đang bước vào giai đoạn mới, cuộc cách mạng công nghiệp lần thứ tư và hội nhập quốc tế đòi hỏi thầy và trò trường THPT Vĩnh Linh phải thực sự đoàn kết, bản lĩnh, trí tuệ, năng động, đổi mới sáng tạo; vượt lên những khó khăn thách thức, không bằng lòng với hiện tại quyết tâm chiếm lĩnh tầm cao mới của tri thức nhân loại. Cán bộ, giáo viên, nhân viên và hóc inh toàn trường sẽ tiếp tục phát huy truyền thống, giữ vững vị thế là trường trọng điểm chất lượng cao bậc trung học phổ thông trong ngành GD-ĐT tỉnh Quảng Trị; xứng đáng với niềm tin yêu và kỳ vọng của Đảng bộ và nhân dân Vĩnh Linh; xứng đáng với danh hiệu cao quý: đơn vị Anh hùng Lao động thời kỳ đổi mới.</p> <br>
+                        </div>
+                        <hr>
+                        <div class="thongtinthem">
+                            <h4>Thông tin khác:</h4>
+                            <div class="danhsach">
+                                <li><a href="#">Kế hoạch chiến lược.</a></li>
+                                <li><a href="#">Kế hoạc chiến lược.</a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="tieude">
+                            <h3 class="title-content-right">CHÍNH PHỦ ĐIỆN TỬ</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="#">
+                                    <img src="./img/tt1.png"
+                                        width="10%" alt=""> Hệ Thống Quản Lý Văn Bản</a></li>
+                            <li class="nav-item"><a href="#">
+                                    <img src="./img/tt2.png"
+                                        width="10%" alt=""> HỆ THỐNG EMAIL CÔNG VỤ</a></li>
+                            <li class="nav-item"><a href="#">
+                                    <img src="./img/tt3.png"
+                                        width="10%" alt=""> DỊCH VỤ CÔNG TRỰC TUYẾN</a></li>
+                            <li class="nav-item"><a href="#">
+                                    <img src="./img/tt4.png"
+                                        width="10%" alt=""> HỆ THỐNG EMAIL GIÁO DỤC</a></li>
+                            <li class="nav-item"><a href="#">
+                                    <img src="./img/tt5.png"
+                                        width="10%" alt=""> HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC</a></li>
+                            <li class="nav-item"><a href="#">
+                                    <img src="./img/tt6.png"
+                                        width="10%" alt=""> HỆ THỐNG TRƯỜNG HỌC KẾT NỐI</a></li>
+                            <li class="nav-item"><a href="#">
+                                    <img src="./img/tt7.png"
+                                        width="10%" alt=""> K12ONLINE</a>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="img-tranghocsinh">
+                            <img src="http://lequydonhatinh.edu.vn/upload/19083/20170716/trang-tin-hoc-sinh.gif"
+                                alt="">
+                        </div>
+                        <div class="img-tracuudiem">
+                            <img src="./img/tra-cuu-ket-qua.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="container-full-width">
+
+                <div class="content-footer">
+                        <div class="list-footer">
+                            <h4>TRƯỜNG THPT VĨNH LINH</h4>
+                            <span>CHỊU TRÁCH NHIỆM NỘI DUNG</span>
+                            <p>Ban biên tập Trang thông tin điện tử Trường THPT VĨNH LINH</p>
+                            <P>Giấy phép số .../GPTTĐT-STTTT do Sở TT&TT cấp ngày ....</P>
+                        </div>
+                        <div class="thongtin">
+                            <h4>LIÊN HỆ</h4>
+                            <span>TRƯỜNG THPT VĨNH LINH</span>
+                            <p><i class="fas fa-phone-square-alt"></i> Điện thoại</p>
+                            <p><i class="fas fa-envelope"></i> Email: thptvinhlinhquangtri@edu.vn</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Địa chỉ: Vĩnh Linh - Quảng Trị</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="menu-footer">
+                <div class="nav">
+                    <div class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a href="index.html" class="menu-link"><i
+                                        class="fas fa-home"></i></a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Giới thiệu</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Liên hệ</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Góp ý</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Hỏi & Đáp</a></li>
+                        </ul>
+                    </div>
+                    <div class="form-search">
+                        <input type="text" placeholder="Search..." class="form-search-input">
+                        <input type="submit" value="Tìm kiếm" class="form-search-btn">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="info-design">
+                <span>Thiết kế và xây dựng Dương Thị Thanh Trúc</span>
+            </div>
+            <div class="back-to-top">
+                <a href="#top"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://uhchat.net/code.php?f=10d2e8"></script>  
+</div>
+</body>
+</html>
